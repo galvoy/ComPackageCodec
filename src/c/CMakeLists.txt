@@ -8,4 +8,8 @@ add_executable(c main.c
         ComPackageCRC.h
         ComPackageCodec.c
         ComPackageCodec.h
+        StreamReceiver.c
+        StreamReceiver.h
+        RingBuffer.h
+        RIngBuffer.c
 )
