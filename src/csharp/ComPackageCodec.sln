@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35017.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComPackageCodec", "ComPackageCodec\ComPackageCodec.csproj", "{5F457D44-527B-4410-A3AD-81CA11F98B42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F457D44-527B-4410-A3AD-81CA11F98B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F457D44-527B-4410-A3AD-81CA11F98B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F457D44-527B-4410-A3AD-81CA11F98B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F457D44-527B-4410-A3AD-81CA11F98B42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {147F2664-5D50-4203-9FCE-AF01F96593B1}
+	EndGlobalSection
+EndGlobal
