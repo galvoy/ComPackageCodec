@@ -11,5 +11,5 @@ add_executable(c main.c
         StreamReceiver.c
         StreamReceiver.h
         RingBuffer.h
-        RIngBuffer.c
+        RingBuffer.c
 )

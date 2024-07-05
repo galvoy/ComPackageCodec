@@ -29,7 +29,7 @@ bool StreamReceiver_ReadPackage(StreamReceiver *instance,
         }
     }
     int bodyStartIndex = pkgHeadIndex + 1;
-    bool result = DecodeBase64(pkgBuffer + bodyStartIndex, maxIndex - bodyStartIndex,
+    bool result = DecodeConst253(pkgBuffer + bodyStartIndex, maxIndex - bodyStartIndex,
                                outputVersion, outputContentBuffer, outputContentLength);
     free(pkgBuffer);
     return result;
